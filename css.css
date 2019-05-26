@@ -1,0 +1,82 @@
+body{
+	background-color: rgb(233, 233, 187);
+	-webkit-user-select: none;}
+#everything{
+    position: relative;
+}
+.border{
+	width: 250px;
+	height: 400px;
+	margin: auto;
+	box-shadow: 4px 4px 2px #666;
+	border-radius: 9px;
+	margin-top: 75px;
+	background-color: #ccc;
+	background-image: -webkit-linear-gradient(left top, #ADADAD, rgb(240, 240, 240));
+	background: -moz-linear-gradient(left top, #ccc, rgb(220, 220, 220));}
+.middle{
+	margin: auto;} 
+.inside{
+	padding: 10px 2px 2px 2px;}
+.output{
+	width: 200px;
+	height: 30px;
+	border-radius: 4px;
+	margin: 17px auto 0px 20px;
+	text-align: right;}
+.error{
+	color: red;}
+table{
+	width: 220px;
+	height: 320px;
+	margin: auto;
+	text-align: center;
+	padding-left: 8px;}
+
+td{
+	font-weight: bold;
+	font-size: 15px;
+	padding-top: 8px;}
+.button{
+	background-color: rgb(156, 190, 201);
+	padding: 8px 5px 5px 5px;
+	text-align:center;
+	vertical-align: middle;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	border-radius: 5px;
+	box-shadow: 2px 3px 3px #666;}
+.button:active{
+	box-shadow:3px 4px 3px #222;
+	opacity: 0.7;}
+.clear{
+	box-shadow: 2px 3px 3px #666;
+	padding: 8px 5px 5px 5px;
+	text-align:center;
+	cursor: pointer;
+	vertical-align: middle;
+	width: 25px;
+	height: 25px;
+	background-color: orange;
+	border-radius: 5px;
+	border-bottom-left-radius: 5px 30px;
+	border-top-right-radius: 5px 30px;}
+.clear:active{
+	box-shadow:3px 4px 3px #222;
+	opacity: 0.7;}
+.op, .s, #evaluate{
+	background-color: orange;}
+.top-left{
+	border-top-right-radius: 5px 30px;
+	border-bottom-left-radius: 5px 30px;}
+.top-right{
+	border-top-left-radius: 5px 30px;
+	border-bottom-right-radius: 5px 30px;}
+.thin{border-radius: 5px;}
+.copyright{
+	text-align: center; 
+	font-style: oblique; 
+	color: rgb(255,0,0);}
+.link:visited{
+	color: blue;}

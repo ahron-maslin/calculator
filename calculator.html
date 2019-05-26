@@ -1,0 +1,106 @@
+<!--prevent user from selecting $output-->
+<!doctype HTML>
+<html>
+
+<head>
+    <title>calculator</title>
+    <meta charset="utf-8">
+    <link href="css.css" type="text/css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="icon.png" />
+</head>
+
+<body>
+    <div id="everything">
+        <div class="border">
+            <div class="inside">
+
+                <input type="text" class="output" id="output">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="button s top-left" id="square" data-num="op">x<sup>2</sup></div>
+                        </td>
+                        <td>
+                            <div class="button s top-left" id="squareRoot">&#8730;</div>
+                        </td>
+                        <td>
+                            <div class="button s top-right" id="toggleSign">+/-</div>
+                        </td>
+                        <td>
+                            <div class="button op top-right" id="add">+</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="button num top-left" id="seven">7</div>
+                        </td>
+                        <td>
+                            <div class="button num top-left" id="eight">8</div>
+                        </td>
+                        <td>
+                            <div class="button num top-right" id="nine">9</div>
+                        </td>
+                        <td>
+                            <div class="button op top-right" id="divide">/</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="button num thin" id="four">4</div>
+                        </td>
+                        <td>
+                            <div class="button num thin" id="five">5</div>
+                        </td>
+                        <td>
+                            <div class="button num thin" id="six">6</div>
+                        </td>
+                        <td>
+                            <div class="button op thin" id="mult">*</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="button num top-right" id="one">1</div>
+                        </td>
+                        <td>
+                            <div class="button num top-right" id="two">2</div>
+                        </td>
+                        <td>
+                            <div class="button num top-left" id="three">3</div>
+                        </td>
+                        <td>
+                            <div class="button op top-left" id="sub">-</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="button top-right" id="decimal">.</div>
+                        </td>
+                        <td>
+                            <div class="button top-right" id="zero">0</div>
+                        </td>
+                        <td>
+                            <div class="button top-left" id="evaluate">=</div>
+                        </td>
+                        <td>
+                            <div class="clear" id="clear">C</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <footer>
+            <p class="copyright">&copy; Aron Maslin Programming <br /> Version <span class="version"></span></p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="jquery-3.2.1.min.js">
+
+
+    </script>
+    <script type="text/javascript" src="btnInput.js">
+
+
+    </script>
+</body>
+
+</html>
