@@ -1,9 +1,6 @@
 body{
 	background-color: rgb(233, 233, 187);
 	-webkit-user-select: none;}
-#everything{
-    position: relative;
-}
 .border{
 	width: 250px;
 	height: 400px;
